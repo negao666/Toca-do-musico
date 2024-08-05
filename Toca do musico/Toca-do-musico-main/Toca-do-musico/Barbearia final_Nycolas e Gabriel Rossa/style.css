@@ -1,0 +1,105 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produtos li {
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.produtos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.produto-descricao {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer img {
+    max-width: 100%;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+ 
