@@ -11,10 +11,16 @@ header {
 
 .caixa {
     width: 90%;
-    margin: 0 auto;
+    margin:0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+img{
+    width: 50%;
 }
 
 nav ul {
